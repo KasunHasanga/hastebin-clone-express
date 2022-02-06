@@ -24,3 +24,18 @@ pre {
     text-align: end;
 
 }
+
+
+
+textarea {
+  background-color: transparent;
+  resize: none;
+  width: 100%;
+  margin-left: 1rem;
+  padding: 0;
+  color: #7D7D7D;
+  min-height: calc(100vh - 2rem);
+  border: none;
+  outline: none;
+
+}

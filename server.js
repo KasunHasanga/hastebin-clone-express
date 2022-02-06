@@ -15,5 +15,8 @@ Haste is the prettiest, easiest to use pastebin ever made.
     res.render('code-display',{code})
 })
 
+app.get('/new',(req,res)=>{
+    res.render("new");
+})
 
 app.listen(port)
