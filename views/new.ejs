@@ -18,10 +18,10 @@
   </head>
   <body>
     <form action="/save" method="post">
-        <%- include('_buttons.ejs') %> 
+      <%- include('_buttons.ejs',{canSave:true}) %>
       <div class="wrapper">
         <div class="line-numbers">&gt;</div>
-        <textarea  autofocus name="value">
+        <textarea autofocus name="value">
                 <%= locals.value %> 
             </textarea
         >
@@ -30,7 +30,6 @@
 
     <script>
       autosize(document.querySelector("textarea"));
-
     </script>
   </body>
 </html>
